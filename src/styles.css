@@ -1,0 +1,10 @@
+body { font-family: system-ui, sans-serif; padding: 24px; max-width: 720px; }
+section { border: 1px solid #ddd; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+.react-aria-Popover { background: white; border: 1px solid #ccc; border-radius: 6px; padding: 4px; min-width: var(--trigger-width); }
+.react-aria-ListBox { outline: none; }
+.react-aria-ListBoxItem { padding: 4px 8px; border-radius: 4px; outline: none; cursor: default; }
+.react-aria-ListBoxItem[data-focused] { background: #eef; }
+.react-aria-ListBoxItem[data-selected] { font-weight: 600; }
+.react-aria-ListBoxItem[data-selected]::before { content: "✓ "; }
+.standalone { border: 1px solid #ccc; border-radius: 6px; padding: 4px; }
+code { background: #f4f4f4; padding: 1px 4px; border-radius: 3px; }
